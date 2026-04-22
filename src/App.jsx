@@ -4,11 +4,18 @@ import viteLogo from './assets/vite.svg';
 import heroImg from './assets/hero.png';
 import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+function Dwa(){
   return (
     <>
+      <p>To jest przykład wywoływania funkcji: </p>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <>
+      <Dwa />
       <h1>Hello World!</h1>
       <p>To jest napis!</p>
     </>
